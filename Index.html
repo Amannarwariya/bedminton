@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Badminton association of india</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+<div class="hero">
+     <nav>
+        <img src="logo1.jpg" class="logo">
+        <ul>
+            <li><a href="org.mission & vision.html">Organization</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Awardees.html">Awardees</a></li>                
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+     </nav>
+<div class="lamp-container">
+    <img src="lamp.jpg" class="lamp">
+    <img src="light.jpg" class="light" id="light">
+    <img src="Play Badminton.jpg" class="playimg" id="playimg" style="border-radius: 100%";>
+</div>
+<div class="text-container">
+   <h1>About BAI</h1>
+   <p>Badminton Association of India (BAI) is the governing body for Badminton in India. 
+    Based in New Delhi, BAI is an association registered under the societies act. 
+    It was formed in 1934 and has been holding national-level tournaments in India since 1936.
+    BAI has 33 State Associations and 04 other organizations as its members that conduct Badminton 
+    tournaments...</p>
+<a href="know.more.html">Know more</a>
+<div class="control">
+    <p>21</p>
+    <div class="line"><span></span></div>
+    <p>30</p>
+</div>
+</div>
+<script>
+    var btn = document.getElementById("btn");
+    var light = document.getElementById("light");
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+    }
+</script>
+</body>    
+</html>
